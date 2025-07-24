@@ -4,7 +4,7 @@ class M_GoogleBooks extends CI_Model
     public function searchBooks($query)
     {
         // API key and URL
-        $apiKey = 'AIzaSyAzE4GPGqc0XWB89ducYnpnbZUjn3t3ibc'; // Replace with your API key
+        $apiKey = '///'; // Replace with your API key
         $apiUrl = 'https://www.googleapis.com/books/v1/volumes?q=' . urlencode($query) . '&key=' . $apiKey;
 
         // Fetch data from Google Books API
